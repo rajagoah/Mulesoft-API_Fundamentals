@@ -1,0 +1,6 @@
+HTTPS Restful API Methods
+1. HTTP GET  --> used to RETRIEVE information from a URL (Universal resource locator)
+2. HTTP POST --> used to CREATE a NEW subordinate resource
+3. HTTP PUT  --> used to UPDATE existing resource
+4. HTTP DELETE --> used to DELETE resources
+5. HTTP PATCH  --> used to PARTIALLY UPDATE resources
