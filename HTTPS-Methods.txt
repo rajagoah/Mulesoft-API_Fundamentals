@@ -1,6 +1,20 @@
+REST API allow one to create an application having access to all CRUD operations (CREATE / UPDATE / DELETE)
 HTTPS Restful API Methods
-1. HTTP GET  --> used to RETRIEVE information from a URL (Universal resource locator)
-2. HTTP POST --> used to CREATE a NEW subordinate resource
+1. HTTP GET  -->--used to RETRIEVE information from a URL (Universal resource locator)
+		--Idempotent
+		--200 = Success status code
+		--404 = Resource Not Found status code
+		--400 = Bad Request status code
+2. HTTP POST --> used to CREATE a NEW resource in a collection of resources
+		--201 = Resource created
+		--204 = No Content
+		--Not Idempotent
 3. HTTP PUT  --> used to UPDATE existing resource
+		--201 = Resource created
+		--204 = No Content
 4. HTTP DELETE --> used to DELETE resources
-5. HTTP PATCH  --> used to PARTIALLY UPDATE resources
+		--201 = Resource created
+		--202 = Accepted
+		--204 = No Content
+		--Not Idempotent
+5. HTTP PATCH  --> used to PARTIALLY UPDATE resources. Should be used in place of PUT method incase the objective 		is to only UPDATE part of the resource as opposed to the entire resource.
