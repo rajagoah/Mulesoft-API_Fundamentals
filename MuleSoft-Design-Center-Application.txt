@@ -1,3 +1,4 @@
+Application Network --> a connection of application that ficilitates communication via data transfer between applications. This network can span across departments within a company. Additionally, the Applications can be opened up for the outside world to consume.
 Design Center Applications
 1. Flow Designer --> very basic
 2. API Designer --> a little advanced developer console
