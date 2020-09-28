@@ -3,3 +3,8 @@ Design Center Applications
 1. Flow Designer --> very basic
 2. API Designer --> a little advanced developer console
 3. Anypoint Studio --> most advanced developer console
+
+Advanced REST Client:
+1. It is an API testing tool. API end points are used to test API responses
+2. Testing happens on the basis of return value
+3. The method that are used to send response is GET and the method used to return value is POST
