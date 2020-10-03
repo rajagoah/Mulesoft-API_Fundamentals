@@ -8,3 +8,8 @@ Advanced REST Client:
 1. It is an API testing tool. API end points are used to test API responses
 2. Testing happens on the basis of return value
 3. The method that are used to send response is GET and the method used to return value is POST
+
+RAML - A tool to build API specifications
+API designer - A platform to write api specifications with RAML
+API Console - A platform that generate automatic documentation based on API specification
+Mocking service - A service to test the API	
